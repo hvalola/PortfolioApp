@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navmap"
+    app:startDestination="@id/portfolioView">
+
+    <fragment
+        android:id="@+id/portfolioView"
+        android:name="com.epic.portfolioapp.ui.portfolioView"
+        android:label="fragment_portfolio_view"
+        tools:layout="@layout/fragment_portfolio_view" />
+</navigation>

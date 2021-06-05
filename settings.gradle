@@ -1,0 +1,3 @@
+rootProject.name = "PortfolioApp"
+include ':app'
+include ':core'
